@@ -1,0 +1,19 @@
+{
+  "name": "hs-easy",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^5.52.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.8.0"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js --progress --color",
+    "publish": "npm publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,2 +1,1 @@
 # hs-easy
-hs-easy
