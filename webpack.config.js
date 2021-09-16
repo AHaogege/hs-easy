@@ -5,6 +5,7 @@ module.exports={
     },
     output:{
         filename:'[name].js',    //输入的文件名是什么，生成的文件名也是什么
+        publicPath:'/dist/',
         library:'hsEasy',
         libraryTarget:'umd',
         umdNamedDefine:true,
