@@ -10,11 +10,14 @@ module.exports={
         umdNamedDefine:true,
         path:path.resolve(__dirname,'./dist') //指定生成的文件目录
     },
-    module:[
-        {
-            test: /\.js$/,
-            loader: 'babel-loader',
-            exclude: /node_modules/
-        }
-    ]
+    module:{
+        loaders: [
+            {
+                test: /\.js$/,
+                loader: 'babel-loader',
+                exclude: /node_modules/
+            }
+
+        ]
+    }
 }
