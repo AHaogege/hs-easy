@@ -5,7 +5,7 @@ module.exports={
     },
     output:{
         filename:'index.js',    //输入的文件名是什么，生成的文件名也是什么
-        library:'hs-easy',
+        library:'hsEasy',
         libraryTarget:'umd',
         umdNamedDefine:true,
         path:path.resolve(__dirname,'./dist') //指定生成的文件目录
