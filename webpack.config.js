@@ -11,7 +11,7 @@ module.exports={
         path:path.resolve(__dirname,'./dist') //指定生成的文件目录
     },
     module:{
-        loaders: [
+        rules: [
             {
                 test: /\.js$/,
                 loader: 'babel-loader',
