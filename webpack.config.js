@@ -10,5 +10,11 @@ module.exports={
         umdNamedDefine:true,
         path:path.resolve(__dirname,'./dist') //指定生成的文件目录
     },
-    mode:"development"    //开发模式，没有对js等文件压缩，默认生成的是压缩文件
+    module:[
+        {
+            test: /\.js$/,
+            loader: 'babel-loader',
+            exclude: /node_modules/
+        }
+    ]
 }
