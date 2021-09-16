@@ -1,8 +1,8 @@
 {
   "name": "hs-easy",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "dependencies": {
     "webpack": "^5.52.1"
   },
@@ -11,7 +11,8 @@
   },
   "scripts": {
     "build": "webpack --config webpack.config.js --progress --color",
-    "publish": "npm publish"
+    "beta": "npm version prerelease && npm run build && npm publish --tag beta",
+    "release":"npm version patch && npm run build && npm publish" 
   },
   "keywords": [],
   "author": "",
