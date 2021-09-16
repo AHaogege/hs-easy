@@ -28,7 +28,7 @@ const getTimestamp = (date='',fmt='',millisecond=1000)=>{
         date = date.replace(/-/g,'/'); 
         timestamp = new Date(date).getTime();
     }else{
-        timestamp =date?parseInt(new Date(date).getTime()); :parseInt(new Date().getTime());    // 当前时间戳
+        timestamp =date?parseInt(new Date(date).getTime()):parseInt(new Date().getTime());    // 当前时间戳
     }
     return millisecond==1000 ?timestamp:timestamp/1000 // millisecond==1000是十三位时间戳 否则正常显示
 }
