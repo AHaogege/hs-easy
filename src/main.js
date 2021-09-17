@@ -5,8 +5,5 @@ let hsEasy = {
     common,
     date
 }
-console.log(common);
-console.log(date);
-console.log(hsEasy);
 
 module.exports = hsEasy

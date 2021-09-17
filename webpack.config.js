@@ -11,7 +11,8 @@ module.exports={
         publicPath:'/dist/',
         library:'hsEasy',
         libraryTarget:'umd',
-        umdNamedDefine:false,
+        umdNamedDefine:true,
+        globalObject:'this',
         path:path.resolve(__dirname,'./dist') //指定生成的文件目录
     },
     mode:'production',

@@ -1,8 +1,8 @@
 // 格式化日期
 const  Format=(fmt, date) =>{
-    // if(typeOf(date)=='number'){
-    //     date = date.toString().length>10?new Date(date):new Date(date*1000)
-    // }
+    if(typeOf(date)=='number'){
+        date = date.toString().length>10?new Date(date):new Date(date*1000)
+    }
     let ret;
     let opt = {
         "Y+": date.getFullYear().toString(),        // 年
