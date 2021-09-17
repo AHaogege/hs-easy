@@ -17,6 +17,9 @@
     "release": "npm version patch && npm run build && npm publish"
   },
   "keywords": [],
+  "files": [
+    "dist/*.js"
+  ],
   "author": "",
   "license": "ISC"
 }
