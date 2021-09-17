@@ -16,7 +16,7 @@ const deepCopy = (object)=>{
 // }
 module.exports = {
     deepCopy,
-    getStorage,
-    setStorage,
-    removeStorage
+    // getStorage,
+    // setStorage,
+    // removeStorage
 }
