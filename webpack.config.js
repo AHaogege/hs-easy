@@ -1,4 +1,7 @@
 const path=require('path'); //调用node.js中的路径
+function resolve(dir){
+    return path.join(__dirname,dir)
+}
 module.exports={
     entry:{
         index:'./src/main.js' //需要打包的文件

@@ -33,7 +33,7 @@ const getTimestamp = (date='',fmt='',millisecond=1000)=>{
     return millisecond==1000 ?timestamp:timestamp/1000 // millisecond==1000是十三位时间戳 否则正常显示
 }
 
-module.export = {
+module.exports = {
     Format,
     getTimestamp
 }
